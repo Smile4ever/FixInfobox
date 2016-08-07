@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 07 Aug 2016 12:00:00 +0000
+Source: fixinfoboxsource
+Binary: fixinfoboxsource
+Architecture: source all
+Version: 0.1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Geoffrey De Belie <computergeoffrey@zoho.com>
+Changed-By: Geoffrey De Belie <computergeoffrey@zoho.com>
+Description:
+ fixinfoboxsource - Correct spacing of MediaWiki infoboxes.
+Changes:
+ fixinfoboxsource (0.1.0-1) unstable; urgency=low
+ .
+   * Fix all known issues
+Checksums-Sha1:
+ 04b31fd12adbbc70101ba5e51c18f3e5f0e464b9 1069 fixinfoboxsource_0.1.0-1.dsc
+ 858548dae822455e48edbf3cfa0891f2486fde53 1173 fixinfoboxsource_0.1.0-1.diff.gz
+ 7130effcba27def5dbb4807d1f792b34fda6b81c 9830 fixinfoboxsource_0.1.0-1_all.deb
+Checksums-Sha256:
+ 0a7c5645e3af7535909df508add11a212c5b725b24953e0306e95eecb126c66d 1069 fixinfoboxsource_0.1.0-1.dsc
+ a29b629988b256fa8525eb8147f1205223a2dc1244cbc8819f82a465675f897e 1173 fixinfoboxsource_0.1.0-1.diff.gz
+ a31cc78981de033daabdecc5f5e01d252a0cd607807d1b1bee0e7ecddab03e36 9830 fixinfoboxsource_0.1.0-1_all.deb
+Files:
+ 5fe6907060d2deb31b2ebf635a533392 1069 contrib/editors optional fixinfoboxsource_0.1.0-1.dsc
+ eebe15ce2c49624c3858329f2d48bfef 1173 contrib/editors optional fixinfoboxsource_0.1.0-1.diff.gz
+ 54eb3ee8ef60f913e01578cea72f4cf0 9830 contrib/editors optional fixinfoboxsource_0.1.0-1_all.deb

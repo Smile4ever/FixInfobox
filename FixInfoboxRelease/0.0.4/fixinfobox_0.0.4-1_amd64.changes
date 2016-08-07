@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Sun, 15 Jun 2014 12:00:00 +0000
+Source: fixinfobox
+Binary: fixinfobox
+Architecture: source all
+Version: 0.0.4-1
+Distribution: unstable
+Urgency: low
+Maintainer: Geoffrey De Belie <computergeoffrey@zoho.com>
+Changed-By: Geoffrey De Belie <computergeoffrey@zoho.com>
+Description: 
+ fixinfobox - FixInfobox
+Changes: 
+ fixinfobox (0.0.4-1) unstable; urgency=low
+ .
+   * First public release
+Checksums-Sha1: 
+ b2ffeb17f3b29ff8dfdc3379d677c4b66d1b802f 1001 fixinfobox_0.0.4-1.dsc
+ 1ac233fa1fccdea865973a973d1ac772305951d9 10870 fixinfobox_0.0.4.orig.tar.gz
+ c9c2ea3e08033e8981c1589278d447dbb511afcc 1106 fixinfobox_0.0.4-1.diff.gz
+ c753c44347db38008af6dc5e67ab37d755a53ea8 8498 fixinfobox_0.0.4-1_all.deb
+Checksums-Sha256: 
+ f716ccb4e9f13cfee650594165ec14dfea5a6c7135371748dfcaf0eae61c4f62 1001 fixinfobox_0.0.4-1.dsc
+ 135f471aabfb9130831dc9cd6e74664af50b5b70d7b1efe72f213531bf7ddec4 10870 fixinfobox_0.0.4.orig.tar.gz
+ 3c533fa2795e84357af50e345ac3430a96e89bd8d6cec371ef9f738f7a9b717c 1106 fixinfobox_0.0.4-1.diff.gz
+ bbb9d6947b9bfe2db992ed02ca1e76e08134808bfccb8f9a109f78e1c4324821 8498 fixinfobox_0.0.4-1_all.deb
+Files: 
+ 514b4743e3659eed0d7079ca582c153d 1001 contrib/editors optional fixinfobox_0.0.4-1.dsc
+ a48dce498ad1017f33c7ee2e0b0c2ef3 10870 contrib/editors optional fixinfobox_0.0.4.orig.tar.gz
+ c1b29c02bb0c5457438e225c49e0cbe2 1106 contrib/editors optional fixinfobox_0.0.4-1.diff.gz
+ 1cbbabb5fdd19eaac66a24918c6107d8 8498 contrib/editors optional fixinfobox_0.0.4-1_all.deb

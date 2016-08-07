@@ -1,0 +1,146 @@
+' Gambas class file
+
+Public strPrevious As String = ""
+
+Public Sub _new()
+
+End
+
+Public Sub btnFixAndCopy_Click()
+
+  FixAndCopy()
+
+End
+
+Public Sub FixAndCopy()
+
+  strPrevious = txtText.Text
+  txtText.Text = Clipboard.Paste("text/plain")
+  FixInfobox()
+
+End
+
+Public Sub FixInfobox()
+
+  Dim arrLines As New String[]
+  Dim i As Integer
+  Dim j As Integer
+
+  Dim maxPosition As Integer = -1
+  Dim currPosition As Integer = -2
+
+  Dim strSpaces As String = ""
+  Dim strSpacesAfter As String = ""
+  Dim strSpacesBefore As String = ""
+
+  If InStr(txtText.Text, "{{") = 0 Then
+    txtText.Text = strPrevious
+    lblStatus.Text = "Clipboard text is not an infobox. Restored previous text."
+    Return
+  Endif
+
+  txtText.Text = Replace(txtText.Text, "      ", " ")
+  txtText.Text = Replace(txtText.Text, "     ", " ")
+  txtText.Text = Replace(txtText.Text, "    ", " ")
+  txtText.Text = Replace(txtText.Text, "   ", " ")
+  txtText.Text = Replace(txtText.Text, "  ", " ")
+  txtText.Text = Replace(txtText.Text, "\t", " ")
+  arrLines = Split(txtText.Text, "\n")
+
+  maxPosition = GetMaximum() + 2
+  txtText.Text = ""
+
+  For i = 0 To arrLines.Count - 1
+    If Mid(arrLines[i], 2, 1) <> "" And Mid(arrLines[i], 1, 1) == "|" Then
+      arrLines[i] = "| " & Trim(Mid(arrLines[i], 2))
+    Endif
+    
+    currPosition = InStr(arrLines[i], "=")
+    If currPosition < maxPosition Then
+      strSpaces = ""
+
+      For j = currPosition To maxPosition - 1
+        strSpaces &= " "
+      Next
+
+      'Space before and after
+      If chkAddSpacesAfter.Value = True Then
+        strSpacesAfter = " "
+      Endif
+      If chkAddSpacesBefore.Value = True Then
+        strSpacesBefore = " "
+      Endif
+
+      If (chkSplitAlways.Value = True) Then
+        arrLines[i] = Replace(arrLines[i], "=", strSpaces & strSpacesBefore & "=" & strSpacesAfter)
+      Else
+        arrLines[i] = Replace(arrLines[i], " =", " " & strSpaces & strSpacesBefore & "=" & strSpacesAfter)
+      End If
+
+    Else
+      arrLines[i] = Replace(arrLines[i], " =", " " & strSpacesBefore & "=" & strSpacesAfter)
+    End If
+
+    arrLines[i] = Replace(arrLines[i], "=  ", "= ")
+    txtText.Text &= arrLines[i] & "\n"
+  Next
+
+  txtText.Text = Trim$(txtText.Text)
+  Copy()
+
+End
+
+Public Sub Copy()
+
+  Clipboard.Copy(txtText.Text, "text/plain")
+  lblStatus.Text = "Copied new infobox to clipboard"
+
+End
+
+Public Sub GetMaximum() As Integer
+
+  Dim arrItems As String[] = Split(txtText.Text, "\n")
+  Dim i As Integer = 1
+  Dim j As Integer = 0
+  Dim maxPosition As Integer
+  Dim currPosition As Integer
+
+  For i = 1 To arrItems.Length - 1
+
+    For j = 3 To Len(arrItems[i]) - 1
+      If Mid(arrItems[i], j, 1) <> " " Then
+        If j < InStr(arrItems[i], "=") Then
+          currPosition = j
+        Endif
+      Else
+        Break 'Continue?
+      Endif
+    Next
+    If maxPosition < currPosition Then
+      maxPosition = currPosition
+    Endif
+  Next
+  Return maxPosition
+
+End
+
+Public Sub Form_Resize()
+
+  txtText.Width = FixInfobox.Width - 80
+  pnlDown.Width = FixInfobox.Width - 80
+  txtText.Height = FixInfobox.Height - 100
+  pnlDown.Y = txtText.Y + txtText.Height + 10
+
+End
+
+Public Sub Form_Open()
+
+  txtText.Text = ""
+
+End
+
+Public Sub chkAddSpacesBefore_Click()
+
+  FixAndCopy()
+
+End

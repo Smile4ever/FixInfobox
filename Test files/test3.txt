@@ -1,0 +1,18 @@
+{{Infobox band
+| band_naam             = Hoquets
+| afbeelding        	= 
+| onderschrift      	= 
+| jaren_actief      	= [[2011]] - heden
+| oorsprong         	= [[België]] - [[Frankrijk]] - [[Verenigde Staten]]
+| muziek_genre    	= [[Alternatieve rock]]
+| bezetting         	= 
+| functie1          	= Hoquets
+| lid1              	=  Maxime Lê Hung (BE)
+| functie2          	= Hoquets
+| lid2              	= François Schulz (FR)
+| functie3          	= Hoquets
+| lid3		        = McCloud Zicmuse (VS)
+| website              	= 
+| allmusic             	= 
+| lastfm              	= Hoquets
+}}

@@ -1,0 +1,12 @@
+{{Infobox band
+| band_naam=Tamboerijn
+| afbeelding=
+| onderschrift=
+| jaren_actief= jaren 70 en 80 <br />2002 - heden
+| muziek_genre= Pop
+| record_label=
+| oorsprong= België
+| huidige_leden= Swa Vervoort<br />Kris Flameng<br />Jan Sant<br />Rob Roeymans<br />Tim Verbaeten
+| oud leden=
+| website= http://web.archive.org/web/20110201103131/http://tamboerijn.com/
+}}

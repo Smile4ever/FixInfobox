@@ -1,0 +1,21 @@
+{{Infobox band
+| band_naam = Les Savy Fav
+| afbeelding = Les savy fav-1443506806.jpg
+| muziek genre = [[indierock]], [[noiserock]]
+| functie1 = [[zanger]]
+| lid1 = Tim Harrington
+| functie2 = [[gitarist]]
+| lid2 = Seth Jabour
+| functie3 = [[bassist]]
+| lid3 = Syd Butler
+| functie4 = [[drummer]]
+| lid4 = Harrison Haynes
+| functie5 = gitarist
+| lid5 = Andrew Reuland
+| oudfunctie1 = gitarist
+| oudlid1 = Gibb Slife
+| oudfunctie2 = drummer
+| oudlid2 = Pat Mahoney
+| oorsprong = [[New York (stad)|New York]]
+| website = http://www.lessavyfav.com/
+}}

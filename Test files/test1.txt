@@ -1,0 +1,11 @@
+{{Infobox software
+| naam=Bonita BPM
+| ontwikkelaar=Bonitasoft S.A.
+| laatste_versie=6.4
+| status=Actief
+| besturingssysteem=[[Multiplatform]]
+| programmeertaal=[[Java (programmeertaal)|Java]]
+| categorie=[[Business process management]]
+| licentie=Engine: [[GNU Lesser General Public License|LGPL]]<br />Studio/Web: [[GNU General Public License|GPL]]
+| website=[http://www.bonitasoft.com bonitasoft.com]
+}}

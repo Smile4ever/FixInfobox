@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 15 Jun 2014 12:00:00 +0000
+Source: fixinfobox
+Binary: fixinfobox
+Architecture: source all
+Version: 0.0.5-1
+Distribution: unstable
+Urgency: low
+Maintainer: Geoffrey De Belie <computergeoffrey@zoho.com>
+Changed-By: Geoffrey De Belie <computergeoffrey@zoho.com>
+Description: 
+ fixinfobox - FixInfobox
+Changes: 
+ fixinfobox (0.0.5-1) unstable; urgency=low
+ .
+   * More spacing as maximum is now corrected
+Checksums-Sha1: 
+ 3cecb47e81220b4c6581615c787e31633cff573c 1001 fixinfobox_0.0.5-1.dsc
+ 8c1e7e654016e61a1a4e80cfc8d568debd4d9297 1136 fixinfobox_0.0.5-1.diff.gz
+ ce820d4472877f7943896de19cb1ee9020ea4601 8734 fixinfobox_0.0.5-1_all.deb
+Checksums-Sha256: 
+ fab5604b2bbbbb8f7b9014aec952b3b68662605929a1e05deca5c3719ed7ba9c 1001 fixinfobox_0.0.5-1.dsc
+ ca32f15ffee26cc28eeeadac705ef0648d1ea97477bedb893affd15084e0623b 1136 fixinfobox_0.0.5-1.diff.gz
+ fc097a75d8d7933f6b72d166571168bec8b05d2e0d84e92afde578c7e46750b5 8734 fixinfobox_0.0.5-1_all.deb
+Files: 
+ b6757e899c0d6e9ed42607b8fad03e9d 1001 contrib/editors optional fixinfobox_0.0.5-1.dsc
+ 7a2b27831a708a9b5f24e284477f25cb 1136 contrib/editors optional fixinfobox_0.0.5-1.diff.gz
+ 17dc51f444aac6acd26fffb0ff1a88ed 8734 contrib/editors optional fixinfobox_0.0.5-1_all.deb

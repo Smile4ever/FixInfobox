@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Sun, 15 Jun 2014 12:00:00 +0000
+Source: fixinfobox
+Binary: fixinfobox
+Architecture: source all
+Version: 0.0.5-0ubuntu1
+Distribution: unstable
+Urgency: low
+Maintainer: Geoffrey De Belie <computergeoffrey@zoho.com>
+Changed-By: Geoffrey De Belie <computergeoffrey@zoho.com>
+Description: 
+ fixinfobox - FixInfobox
+Changes: 
+ fixinfobox (0.0.5-0ubuntu1) unstable; urgency=low
+ .
+   * More spacing as maximum is now corrected
+Checksums-Sha1: 
+ f26ff0594311c29ce3248ce01cda170d154e151e 1029 fixinfobox_0.0.5-0ubuntu1.dsc
+ 04b9333e2faee3e5291ee564c45717d010de8b91 1140 fixinfobox_0.0.5-0ubuntu1.diff.gz
+ 2df8468c1dd243d989874c1d7efe5323acf02767 8752 fixinfobox_0.0.5-0ubuntu1_all.deb
+Checksums-Sha256: 
+ c952a8cd1b767a84baae30c1de1cfaa90ba8072022179d315b680c91c817c025 1029 fixinfobox_0.0.5-0ubuntu1.dsc
+ c8d5ee2606966752ac73c4099602270c5356a5e892169a14f0a49313fcd24ff2 1140 fixinfobox_0.0.5-0ubuntu1.diff.gz
+ b14ec98a13de64286a905e57612571786c427c3736acb805852c081d74ab8fb1 8752 fixinfobox_0.0.5-0ubuntu1_all.deb
+Files: 
+ d9257eca8bb75334d3135e6f00849e2b 1029 contrib/editors optional fixinfobox_0.0.5-0ubuntu1.dsc
+ a82c111d10ccb9cb94b959289dee387a 1140 contrib/editors optional fixinfobox_0.0.5-0ubuntu1.diff.gz
+ c0085eb7b0110d544151395e5dc618c9 8752 contrib/editors optional fixinfobox_0.0.5-0ubuntu1_all.deb

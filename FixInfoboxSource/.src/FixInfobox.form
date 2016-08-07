@@ -1,0 +1,41 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,136,78)
+  Text = ("FixInfobox")
+  { pnlDown Panel
+    MoveScaled(8,72,123,5)
+    { lblStatus Label
+      MoveScaled(0,0,47,4)
+      Text = ("Click Fix & copy to use clipboard contents")
+    }
+    { btnFixAndCopy Button
+      MoveScaled(48,0,16,4)
+      Text = ("Fix && copy")
+    }
+    { chkSplitAlways CheckBox
+      MoveScaled(66,0,15,4)
+      Text = ("Split always")
+      Value = CheckBox.True
+    }
+    { chkAddSpacesAfter CheckBox
+      MoveScaled(103,0,24,4)
+      Text = ("Add spaces after")
+      Value = CheckBox.True
+    }
+    { chkAddSpacesBefore CheckBox
+      MoveScaled(81,0,21,4)
+      Text = ("Add spaces before")
+    }
+  }
+  { txtText TextArea
+    MoveScaled(9,6,122,64)
+    Enabled = False
+    Font = Font["Liberation Mono"]
+    Expand = True
+    Text = ("{{Infobox software\n| naam = GNU Compiler Collection\n| logo = GNU Compiler Collection logo.svg\n| logobreedte = 70\n| screenshot = \n| onderschrift = \n| ontwikkelaar = [[GNU Project]]\n| laatste_versie = 4.9\n| laatste_releasedatum = 16 oktober 2013\n| laatste_beta_versie = 4.8.0 RC\n| laatste_beta_releasedatum = 16 maart 2013\n| status = Actief\n| besturingssysteem = [[Multiplatform]]\n| programmeertaal = [[C++]]<ref>{{en}}[http://www.phoronix.com/scan.php?page=news_item&px=MTE1ODc GCC Moves Forward With Conversion To C++]</ref>\n| categorie = [[Compiler]]\n| licentie = [[GNU General Public License]] en [[GNU Lesser General Public License]]\n| website = {{en}}[http://gcc.gnu.org Projectpagina]\n| portaal2 = Vrije software\n}}")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+}
